@@ -1,0 +1,912 @@
+body{
+    background-size: cover; /* Fill the screen*/
+    background-position: center 1%;
+    background-repeat: no-repeat; /*keep the image centered*/
+    background-attachment: fixed;
+    font-family: "Roboto Serif", serif;
+    line-height: 1.3;
+}
+
+.menu-button{
+    position: fixed;
+    top: 20px;
+    right:20px;
+    z-index: 1001;
+
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+
+    background: rgba(0, 0, 0, 0.65);
+    border: 1px solid rgba(255, 152, 0, 0.6);
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+}
+
+.menu-button span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #FF9800;
+    border-radius: 3px;
+}
+
+.slash .menu-button {
+    top: 40px;
+}
+
+.slash .slide-menu {
+    padding-top: 100px;
+}
+
+.slide-menu {
+    position:fixed;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: auto;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+
+}
+
+.slide-menu.open {
+    transform: translateX(0);
+}
+
+
+
+.featured-photo{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.featured-photo img{
+    width: 500px;
+}
+
+.side-photo-right{
+    float:right;
+    margin: 20px;
+}
+
+.side-photo-left{
+    float: left;
+    margin: 20px;
+}
+
+.side-photo-right img,
+.side-photo-left img {
+    width: 300px;
+
+}
+
+.kirk-side-photo-right,
+.randy-side-photo-right,
+.stevie-side-photo-right{
+    float:right;
+    margin:20px;
+}
+
+.kirk-side-photo-right img{
+    width: 300px;
+}
+
+.photo-credit {
+    font-size: 0.7rem;
+    margin: 4px 0 0;
+    text-align: center;
+    width: 100%;
+}
+
+.randy-side-photo-right img{
+    width: 350px;
+}
+
+.randy-featured-photo,
+.slash-featured-photo {
+    transform: translateX(570px);
+}
+
+.slash-featured-photo{
+    margin:40px 0;
+}
+
+.slash-featured-photo img{
+    width: 400px;
+    display:block;
+    margin: 0 auto;
+}
+
+.slash-side-photo-right{
+     float:right;
+     margin:20px;
+}
+
+.slash-side-photo-right img{
+    width: 375px;
+}
+
+.slash-side-photo-left{
+    float: left;
+    margin: 20px;
+}
+
+.slash-side-photo-left img{
+    width: 400px;
+}
+
+
+.stevie-side-photo-right img{
+    width: 600px;
+}
+
+img {
+    border-radius: 10px;
+    /*box-shadow: 3px 3px 10px #000;*/
+}
+
+.stevie-content .featured-photo img {
+    box-shadow: 3px 3px 10px #000;
+    
+}
+
+.artist-biography {
+    margin-top: 300px;
+}
+
+.kirk-biography p,
+.randy-biography p,
+.slashs-biography p,
+.srv-biography p {
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+.explore-section {
+    text-align: center;
+    margin-top: auto;
+    position: relative;
+    z-index: 1;
+    clear: both;
+}
+
+
+
+
+/*Home page background*/
+.home-page{
+    background-image: url("../images/main-page-background.png");
+}
+
+.home-page h1{
+    color:#FF9800;
+    text-shadow: 3px 3px 6px #000;
+    text-align: center;
+    font-size: 40px;
+}
+
+.home-page p{
+    color:#FF9800;
+    text-shadow: 3px 3px 6px #000;
+    text-align: center;
+    padding-top: 300px;
+    font-size: 20px;
+    
+}
+
+.home-page a{
+    color:#FF9800;
+    text-shadow: 3px 3px 6px #000;
+}
+
+.intro p{
+    line-height: 2;
+    background: rgba(0, 0, 0, 0.25);
+    
+}
+
+/*Kirk page background*/
+.kirk,
+.kirks-equipment,
+.kirks-influences,
+.kirks-musicians-influenced{
+    background-image: url(../images/lightning\ 3.jpg);
+}
+
+.kirk h2,
+.kirks-equipment h2,
+.kirks-influences h2,
+.kirks-musicians-influenced h2,
+.randy-content h2,
+.slash-content h2
+{
+    color:#EAEAEA;
+    text-shadow: 3px 3px 6px #000;
+    text-align: center;
+    font-size: 32px;
+}
+
+.kirk-content,
+.randy-content,
+.slash-content,
+.stevie-content{
+    position:relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+}
+
+.kirk-lesson,
+.randy-lesson{
+    position: relative;
+    z-index: 1;
+    margin-bottom: 60px;
+}
+
+.kirk-content::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: -1;
+}
+
+
+
+.kirk-page-heading,
+.kirk-hammett-headline,
+.randy-page-heading,
+.stevie-page-heading{
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    text-shadow: 3px 3px 6px #000;
+    text-align: center;
+    font-size: 40px;
+}
+
+.kirk-page-heading,
+.kirk-hammett-headline,
+.stevie-page-heading{
+    color: #EAEAEA;
+}
+
+.randy-page-heading{
+    color: #D4AF37;
+}
+
+
+.kirk p,
+.kirks-equipment p,
+.kirks-influences p,
+.kirks-musicians-influenced p,
+.randy p,
+.randy-equipment p,
+.randy-influences p,
+.randy-musicians-influenced p,
+.slash p,
+.slash-equipment p,
+.slash-influences p,
+.slash-musicians-influenced p,
+.srv p,
+.stevie-content p{
+    text-shadow: 3px 3px 6px #000;
+    text-align: left;
+    font-size: 20px;
+}
+
+.kirk p,
+.kirks-equipment p,
+.kirks-influences p,
+.kirks-musicians-influenced p{
+    color:#EAEAEA;
+}
+
+
+
+.randy-lesson p,
+.kirk-lesson p{
+    line-height: 1.8;
+    text-align: center;
+}
+
+.explore-section p{
+    line-height: 1.8;
+    text-align: center;
+}
+
+.artist-links a,
+.kirks-links a,
+.randys-links a,
+.slashs-links a,
+.stevies-links a {
+    font-size: 20px;
+    margin: 0 15px;
+}
+.kirk-content {
+    text-align: center;
+}
+
+
+
+.morello,
+.hammett,
+.mustaine{
+    margin-right: auto;
+    margin-left: 175px;
+}
+
+
+
+
+.wylde,
+.darrell,
+.cantrell {
+    margin-left: auto;
+    margin-right: 175px; 
+}
+
+blockquote{
+    color:#EAEAEA;
+    font-size: 20px;
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+.interviews {
+    font-size: 20px;
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+
+.kirk a,
+.kirks-equipment a,
+.kirks-influences a,
+.kirks-musicians-influenced a{
+   color:#EAEAEA;
+   text-align:center;
+}
+
+.kirk-lesson a,
+.randy-lesson a{
+    display: block;
+    text-align: center;
+}
+
+
+.guitar-list,
+.pedal-list,
+.amp-list,
+.popular-influences,
+.lesser-known,
+.bands,
+.interviews,
+.rock-influences,
+.classical-influences,
+.randy-guitar-list,
+.randy-amp-list,
+.randy-pedal-list,
+.slash-guitar-list
+{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.guitar-list li,
+.pedal-list li,
+.amp-list li,
+.popular-influences li,
+.lesser-known li,
+.bands li,
+.interviews li{
+    color: #EAEAEA;
+}
+
+.randy-content .interviews li,
+.randy-content .rock-influences li,
+.randy-content .classical-influences li,
+.randy-content .bands li,
+.randy-content .randy-guitar-list li,
+.randy-content .randy-amp-list li,
+.randy-content .randy-pedal-list li{
+    color: #D4AF37;
+}
+
+
+/*Randy page background*/
+.randy,
+.randy-equipment,
+.randy-influences,
+.randy-musicians-influenced{
+    background-image: url(../images/randy\ rhoads\ background.png);
+
+
+}
+
+
+.randy p,
+.randy-equipment p,
+.randy-influences p,
+.randy-musicians-influenced p{
+    color:#D4AF37;
+}
+
+
+
+.randy a,
+.randy-equipment a,
+.randy-influences a,
+.randy-musicians-influenced a{
+    color:#D4AF37;
+    text-align: center;
+}
+
+.randy-content blockquote,
+.randy-page-heading{
+    color: #D4AF37;
+  
+}
+
+.randy-content::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: -1;
+}
+
+.randy-content h2{
+    color: #D4AF37;
+}
+
+.randy-biography {
+    position: relative;
+}
+
+.randy-biography::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.300);
+    z-index: -1;
+}
+
+.randy .artist-intro p{
+    background: rgba(0, 0, 0, 0.50);
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.rock-influences,
+.randy-guitar-list {
+    background: rgba(0, 0, 0, 0.30);
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+
+/*Slash page background*/
+.slash,
+.slash-equipment,
+.slash-influences,
+.slash-musicians-influenced{
+    background-image: url(../images/slash\ on\ stage\ snake2.png);
+    position: relative;
+}
+
+.slash h1,
+.slash-equipment h1,
+.slash-influences h1,
+.slash-musicians-influenced h1{
+    color:#FFD700;
+    text-shadow: 3px 3px 6px #000;
+    text-align: left;
+    font-size: 40px;
+}
+
+.slash-page-heading {
+    color: #FFD700;
+    text-shadow: 3px 3px 6px #000;
+    text-align: center;
+    font-size: 40px;
+}
+
+.other-bands h2,
+.slash-content h2{
+    color:#FFD700;
+    text-shadow: 3px 3px 6px #000;
+}
+
+
+
+.slash-influences h3{
+    color:#FFD700;
+    text-shadow: 3px 3px 6px #000;
+    text-align: left;
+    font-size: 26px;
+}
+
+.slash p,
+.slash-equipment p,
+.slash-influences p,
+.slash-musicians-influenced p{
+    color:#FFD700;
+
+}
+
+.slash a,
+.slash-equipment a,
+.slash-influences a,
+.slash-musicians-influenced a{
+    color:#FFD700;
+    text-align: center;
+}
+
+.slash-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.450);
+    z-index: -1;
+}
+
+.slash-content .slash-guitar-list li,
+.slash-content .slash-amp-list li,
+.slash-content .slash-pedal-list li{
+    color:#FFD700;
+    text-align: center;
+
+}
+
+.slash-content .explore-section p{
+    line-height: 1.8;
+    text-align: center;
+}
+
+.slash-influence-left,
+.slash-musicians-left,
+.kirk-musician-left {
+    width: fit-content;
+    margin-left: 30px;
+    margin-right: auto;
+}
+
+.slash-influence-right,
+.slash-musicians-right,
+.kirk-musician-right {
+    width: fit-content;
+    margin-right: 30px;
+    margin-left: auto;
+}
+
+.slash-content blockquote,
+.slash-content li{
+    color:#FFD700;
+}
+
+.slash-content .slash-centered{
+    text-align: center;
+}
+
+.slashs-biography {
+    position: relative;
+}
+
+.slash::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.450);
+    z-index: -1;
+}
+
+
+
+
+/*SRV page background*/
+.srv,
+.stevie-equipment,
+.stevie-influences,
+.stevie-musicians-influenced{
+    background-image: url(../images/srv\ background.png);
+}
+
+/* Hidden heading */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.stevie-content h2,
+.stevie-content h1,
+.stevie-content li,
+.stevie-content h3{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.stevie-content .explore-section p{
+    text-align: center;
+}
+
+.srv p,
+.stevie-content p{
+    color: #FFFFFF;
+
+}
+
+.srv a,
+.stevie-content a{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.stevie-influence-center,
+.stevie-musicians-center{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stevie-influence-right,
+.stevie-musicians-right{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.srv-biography {
+    position: relative;
+}
+
+
+.srv-biography::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.300);
+    z-index: -1;
+}
+
+.stevie-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.300);
+    z-index: -1;
+}
+
+.srv .featured-photo {
+    margin-top: 360px;
+}
+
+.click-me {
+    display: inline-block;
+    padding: 12px 24px;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.65);
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    align-self: center;
+    margin-top: 30px;
+}
+
+.click-me:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/*who's next page background*/
+
+.mysterious {
+    background-image: url("../images/whosnext.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@media (max-width: 768px) {
+    .kirk-side-photo-right img {
+        width: 250px;
+        height: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .kirk-side-photo-right img {
+        width: 200px;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .featured-photo img {
+        width: 350px;
+        height: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .featured-photo img {
+        width: 65%;
+        height: auto;
+    }
+}
+
+.kirk-cliff-photo {
+    float: left;
+    margin: 20px;
+}
+
+.kirk-cliff-photo img {
+    width: 300px;
+}
+
+@media (max-width: 768px) {
+    .kirk-cliff-photo img {
+        width: 200px;
+        height: auto;
+    }
+}
+
+.kirk-content .page-intro,
+.randy-content .page-intro,
+.slash-content .page-intro,
+.stevie-content .page-intro{
+    text-align: center;
+}
+
+.legend-form{
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formStatus {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Roboto Serif", serif;
+    font-size: 18px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.legend-form input {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.mysterious-content .slide-menu a{
+    color: #FFFFFF;
+}
+
+.mysterious-headline{
+    font-family: "Bodoni Moda SC", serif;
+    font-size: 45px;
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+
+.mysterious::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+        ellipse at 45% 25%,
+        rgba(255, 255, 255, 0.15),
+        transparent 45%
+    );
+    pointer-events: none;
+}
+
+@media (max-width: 400px) {
+    .mysterious-headline {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .mysterious-headline {
+        font-size: 35px;
+    }
+}
+
+.legend-form button {
+    padding: 12px 24px;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.65);
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    font-family: "Roboto Serif", serif;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 325px;
+}
+
+.legend-form label,
+.legend-form input {
+    font-family: "Roboto Serif", serif;
+}
+
+@media (max-width: 400px) {
+    .srv,
+    .stevie-equipment,
+    .stevie-influences,
+    .stevie-musicians-influenced {
+        background-position: 20% 1%;
+    }
+}
+
+.featured-photo .photo-credit,
+.slash-featured-photo .photo-credit {
+    display: block;
+    width: 100%;
+    clear: both;
+    text-align: center;
+}

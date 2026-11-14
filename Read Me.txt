@@ -1,0 +1,173 @@
+Project: Six Strings, Endless Legends
+Created by: Derrick Dumont
+Current Version: 2.0
+Original Version: 1.0
+Current development began: 08/25/2026
+Technologies: HTML, CSS, JavaScript
+
+To use the site. click on index.html
+navigate through where you want to go. 
+
+
+any suggestions, thoughts. let me know. 
+you can type it below. thank you. 
+
+photos:
+Kirk Hammett & Cliff Burton — Metallica 1983 press photo
+Source: Wikimedia Commons
+Credit: Distributed by Megaforce Records
+License: Public domain (U.S.)
+Source page: https://commons.wikimedia.org/wiki/File:Metallica_1983_press_photo.jpg
+
+Kirk Hammett — San Antonio, Texas, 2017
+Photographer: Ralph Arvesen
+Source: Wikimedia Commons
+License: Creative Commons Attribution 2.0 Generic (CC BY 2.0)
+Source page: https://commons.wikimedia.org/wiki/File:Kirk_Hammett_2017.jpg
+License: https://creativecommons.org/licenses/by/2.0/
+Changes: Cropped/resized for website use.
+
+Kirk Hammett — Performing on Guitar
+Photographer: kjpm
+Source: Wikimedia Commons
+License: Creative Commons Attribution 2.0 Generic (CC BY 2.0)
+Source page: https://commons.wikimedia.org/wiki/File:Kirk_Hammett_playing.jpg
+License: https://creativecommons.org/licenses/by/2.0/
+Changes: Cropped/resized for website use.
+
+```text
+Randy Rhoads & Ozzy Osbourne — Blizzard of Ozz, 1980
+Photographer/Author: Jet Records
+Source: Bob Daisley's official Facebook page
+Source page: https://commons.wikimedia.org/wiki/File:Blizzard_of_Ozz.jpg
+License/Status: Public Domain in the United States
+Changes: Cropped/resized for website use.
+```
+
+```text
+Randy Rhoads — Classic Randy
+Creator/Photographer: rick
+Source: Flickr
+Original photo page: https://www.flickr.com/photos/35034361412@N01/2461744689
+License: Creative Commons Attribution 2.0 Generic (CC BY 2.0)
+License URL: https://creativecommons.org/licenses/by/2.0/
+Changes: Cropped/resized for website use.
+```
+
+
+```text
+Randy Rhoads — randy2
+Creator/Photographer: imt0203
+Source: Flickr
+Original photo page: https://www.flickr.com/photos/36368351@N00/2130460743
+License/Status: Public Domain Mark 1.0
+Public Domain Mark: https://creativecommons.org/publicdomain/mark/1.0/
+Changes: Cropped/resized for website use.
+```
+
+
+```text
+SLASH — Aerosmith Slash 2014
+
+Creator/Photographer: bobnjeff
+Source: Flickr
+Original photo page: https://www.flickr.com/photos/96724410@N04/14743285165/
+License: Creative Commons Attribution 2.0 Generic (CC BY 2.0)
+License URL: https://creativecommons.org/licenses/by/2.0/
+Changes: Cropped/resized for website use.
+
+Purpose: Group/historical photograph showing Slash performing with Aerosmith.
+```
+
+```text
+SLASH — Slash en Chile 2011
+
+Creator/Photographer: Carlos Varela
+Source: Flickr
+Original photo page: https://www.flickr.com/photos/c32/5593134969/
+License: Creative Commons Attribution 2.0 Generic (CC BY 2.0)
+License URL: https://creativecommons.org/licenses/by/2.0/
+Date: April 4, 2011
+Changes: Cropped/resized for website use.
+
+Purpose: Portrait-style photograph of Slash performing during the We're All Gonna Die Tour in Santiago, Chile.
+```
+
+```text
+SLASH — GNR Belgrade 2025 03
+
+Creator/Photographer: AxeAdam20
+Source: Wikimedia Commons
+Original photo page: https://commons.wikimedia.org/wiki/File:GNR_Belgrade_2025_03.jpg
+License: Creative Commons Zero 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Date: July 18, 2025
+Location: Ušće Park, Belgrade, Serbia
+Original resolution: 1,536 × 2,048
+Changes: Resized/cropped for website use.
+
+Purpose: Live-performance photograph of Slash performing with Guns N' Roses.
+```
+
+
+```text
+STEVIE RAY VAUGHAN — Stevie Ray Vaughan and Double Trouble (1983)
+
+Creator/Photographer: Don Hunstein
+Source: Wikimedia Commons
+Original photo page: https://commons.wikimedia.org/wiki/File:Stevie_Ray_Vaughan_and_Double_Trouble_(1983_publicity_photo_by_Don_Hunstein).jpg
+Original publication: Publicity photograph, circa 1983
+License/Status: Public Domain in the United States
+Reason: Published in the United States between 1978 and February 1989 without a valid copyright notice; no copyright registration was found within the required five-year period.
+Original resolution: 1,200 × 1,221
+Changes: Resized/cropped for website use.
+
+Purpose: Group/historical photograph of the original Double Trouble lineup — Chris Layton, Stevie Ray Vaughan, and Tommy Shannon.
+```
+
+```text
+STEVIE RAY VAUGHAN — Stevie Ray Vaughan with Fan 1989
+
+Creator/Photographer: Joe Bielawa
+Source: Flickr
+Original photo page: https://www.flickr.com/photos/joebe/4142201795/
+Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Stevie_Ray_Vaughan_with_fan_1989.jpg
+License: Creative Commons Attribution 2.0 Generic (CC BY 2.0)
+License URL: https://creativecommons.org/licenses/by/2.0/
+Date: October 25, 1989
+Location: Minneapolis, Minnesota
+Original resolution: 2,016 × 1,392
+Changes: Resized/cropped for website use.
+
+Purpose: Photograph of Stevie Ray Vaughan signing an autograph for a fan following a Double Trouble performance during the In Step Tour.
+```
+
+```text
+STEVIE RAY VAUGHAN — Jimmie Vaughan and Number One Guitar
+
+Creator/Photographer: LBJ Library
+Source: Wikimedia Commons / Flickr
+Original photo page: https://commons.wikimedia.org/wiki/File:DIG15175-008_Stevie_Ray_Vaughan_%E2%80%9CNumber_One_Guitar%E2%80%9D_(Fender_Stratocaster)_and_his_older_brother,_Jimmie_Vaughan_-_Music_America_-_Iconic_Objects_from_America%E2%80%99s_Music_History_(204-02-15_12.25.59_LBJ_Library_@Flickr_53537260131).jpg
+License/Status: Public Domain
+Original resolution: 1,460 × 2,000
+Changes: Resized/cropped for website use.
+
+Description: Jimmie Vaughan standing beside Stevie Ray Vaughan's "Number One" Fender Stratocaster, displayed in a glass case as part of the Music America: Iconic Objects from America's Music History exhibit at the LBJ Library.
+
+Purpose: Featured photograph representing two important parts of Stevie Ray Vaughan's life and legacy — family and guitar. Jimmie Vaughan was an important musical influence on Stevie, while "Number One" became one of the guitars most closely associated with Stevie's career.
+```
+
+### Credit underneath the photo
+
+Even though the photograph is public domain, I'd keep the credit consistent with the rest of the site:
+
+```html
+<p class="photo-credit">
+    Photo: LBJ Library /
+    <a href="https://commons.wikimedia.org/wiki/File:DIG15175-008_Stevie_Ray_Vaughan_%E2%80%9CNumber_One_Guitar%E2%80%9D_(Fender_Stratocaster)_and_his_older_brother,_Jimmie_Vaughan_-_Music_America_-_Iconic_Objects_from_America%E2%80%99s_Music_History_(204-02-15_12.25.59_LBJ_Library_@Flickr_53537260131).jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>
+    — Public Domain
+</p>
+```
+
+
+
